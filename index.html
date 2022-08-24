@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
         <title> Welcome to my website </title>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
     </head>
     <body>
         <p> Hello, html world! </p>
-        <div class="hello u-textCenter"> Hello, css world! </div>
+        <div class="hello u-textCenter"> 
+            <p>Hello, css world! </p>
+            <button onclick="hello_JSworld()"> Hello, JavaScript world!</button>
+        </div>
     </body>
 </html>
+
+<script type="text/javascript">
+    function hello_JSworld() {
+        alert("Hello, JavaScript world!");
+        console.log("Hello, JavaScript world!");
+    }
+</script>
